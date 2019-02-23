@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\Generator.ToWebInteractor.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\Generator.ToWebInteractor.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\Generator.ToWebInteractor.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\MySql.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\MySql.Data.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\obj\Debug\Generator.ToWebInteractor.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\obj\Debug\Generator.ToWebInteractor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\obj\Debug\Generator.ToWebInteractor.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\obj\Debug\Generator.ToWebInteractor.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.ToWebInteractor\obj\Debug\Generator.ToWebInteractor.pdb

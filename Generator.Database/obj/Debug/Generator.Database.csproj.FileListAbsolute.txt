@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\bin\Debug\Generator.Database.dll.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\bin\Debug\Generator.Database.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\bin\Debug\Generator.Database.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\obj\Debug\Generator.Database.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\obj\Debug\Generator.Database.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\obj\Debug\Generator.Database.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\presentationGenerator\Generator.Database\obj\Debug\Generator.Database.pdb
