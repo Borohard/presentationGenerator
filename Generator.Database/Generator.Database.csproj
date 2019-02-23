@@ -36,7 +36,14 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,11 +53,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ContextFactory\Context.cs" />
+    <Compile Include="ContextFactory\ContextFactory.cs" />
+    <Compile Include="IContextFactory\IContext.cs" />
+    <Compile Include="IContextFactory\IContextFactory.cs" />
+    <Compile Include="IRepository\ICrudRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CrudRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Generator.Database.Interaction\Generator.Database.Interaction.csproj">
+      <Project>{7ceda9d3-5508-4cf7-ac6a-63e789d06d34}</Project>
+      <Name>Generator.Database.Interaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.Database.Models\Generator.Database.Models.csproj">
+      <Project>{517be1a8-3a40-4599-940c-debfb0e2a8b6}</Project>
+      <Name>Generator.Database.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.ProcessingService\Generator.ProcessingService.csproj">
+      <Project>{7ec49975-5f20-4e7f-8560-66e72dadcf93}</Project>
+      <Name>Generator.ProcessingService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.ToWebInteractor\Generator.ToWebInteractor.csproj">
+      <Project>{16dbffa9-69e0-4a33-8a02-20ca6a7c0bb2}</Project>
+      <Name>Generator.ToWebInteractor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

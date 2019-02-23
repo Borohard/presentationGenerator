@@ -46,11 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Generator.Database.Models\Generator.Database.Models.csproj">
+      <Project>{517be1a8-3a40-4599-940c-debfb0e2a8b6}</Project>
+      <Name>Generator.Database.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.ProcessingService\Generator.ProcessingService.csproj">
+      <Project>{7ec49975-5f20-4e7f-8560-66e72dadcf93}</Project>
+      <Name>Generator.ProcessingService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.ToWebInteractor\Generator.ToWebInteractor.csproj">
+      <Project>{16dbffa9-69e0-4a33-8a02-20ca6a7c0bb2}</Project>
+      <Name>Generator.ToWebInteractor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

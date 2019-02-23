@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="EntityBase.cs" />
+    <Compile Include="IAuditEntity\IAuditChangingEntity.cs" />
+    <Compile Include="IAuditEntity\IAuditCreationEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Generator.ProcessingService\Generator.ProcessingService.csproj">
+      <Project>{7ec49975-5f20-4e7f-8560-66e72dadcf93}</Project>
+      <Name>Generator.ProcessingService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generator.ToWebInteractor\Generator.ToWebInteractor.csproj">
+      <Project>{16dbffa9-69e0-4a33-8a02-20ca6a7c0bb2}</Project>
+      <Name>Generator.ToWebInteractor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
