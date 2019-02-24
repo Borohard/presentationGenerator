@@ -8,10 +8,10 @@ using Generator.Database.Models;
 
 namespace Generator.Database
 {
-    public class ContextFactory<TEntity, T> : IContextFactory<TEntity, T>
-        where TEntity : EntityBase<T>
+    public class ContextFactory : IContextFactory
     {
-        public Context<TEntity,T> GetDbContext()
+        public Context<TEntity, T> GetDbContext<TEntity, T>()
+            where TEntity : EntityBase<T>
         {
             return new Context<TEntity, T>();
         }

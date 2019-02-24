@@ -8,9 +8,9 @@ using Generator.Database.Models;
 
 namespace Generator.Database
 {
-    public interface IContextFactory<TEntity,T>
-        where TEntity:EntityBase<T>
+    public interface IContextFactory
     {
-        Context<TEntity,T> GetDbContext();
+        Context<TEntity, T> GetDbContext<TEntity, T>()
+            where TEntity : EntityBase<T>;
     }
 }
